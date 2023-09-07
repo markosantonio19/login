@@ -16,3 +16,4 @@ C:\Users\Alumno\Desktop\login\login\obj\Debug\net6.0-windows\refint\login.dll
 C:\Users\Alumno\Desktop\login\login\obj\Debug\net6.0-windows\login.pdb
 C:\Users\Alumno\Desktop\login\login\obj\Debug\net6.0-windows\login.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\login\login\obj\Debug\net6.0-windows\ref\login.dll
+C:\Users\Alumno\Desktop\login\login\obj\Debug\net6.0-windows\login.Form2.resources
