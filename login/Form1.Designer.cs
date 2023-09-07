@@ -32,6 +32,8 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -49,7 +51,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(265, 76);
+            label1.Location = new Point(278, 74);
             label1.Name = "label1";
             label1.Size = new Size(36, 17);
             label1.TabIndex = 1;
@@ -59,16 +61,36 @@
             // textBox1
             // 
             textBox1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.Location = new Point(226, 105);
+            textBox1.Location = new Point(226, 110);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(127, 24);
             textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox2.Location = new Point(226, 199);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(135, 24);
+            textBox2.TabIndex = 5;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(260, 161);
+            label2.Name = "label2";
+            label2.Size = new Size(70, 17);
+            label2.TabIndex = 4;
+            label2.Text = "password";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(482, 450);
+            Controls.Add(textBox2);
+            Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -85,5 +107,7 @@
         private PictureBox pictureBox1;
         private Label label1;
         private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label2;
     }
 }
