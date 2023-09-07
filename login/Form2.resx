@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+  <!--
     Microsoft ResX Schema 
-    
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
     <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
     <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAD////////////////8/Pz////////////09PT/0dHR/9XV1f/09PT////////////8/Pz//v7+////
+        ///////////////////8/Pz//////83Nzf9PT0//FxcX/xcXF/8ZGRn/FRUV/0NDQ//ExMT///////z8
+        /P/////////////////9/f3//////3p6ev8AAAD/X19f/9DQ0P///////v7+/9/f3/9ycnL/AAAA/29v
+        b////////f39///////8/Pz//////3x8fP8HBwf/zMzM///////i4uL/i4uL/29vb/+ampr/9vb2/+Dg
+        4P8PDw//cXFx///////8/Pz//////83Nzf8HBwf/xsbG//////+hoaH/AwMD/wAAAP8CAgL/AAAA/wcH
+        B//Gxsb/4eHh/wcHB//CwsL///////////9aWlr/YmJi///////f39//ERER/wAAAP9mZmb/ra2t/3V1
+        df8AAAD/IiIi//////9vb2//TExM///////8/Pz/KCgo/8DAwP//////o6Oj/wAAAP9fX1////////r6
+        +v//////YWFh/wAAAP/CwsL/1tbW/x0dHf/29vb/3d3d/yMjI//o6Oj//////52dnf8AAAD/h4eH////
+        ///4+Pj//////7u7u/8oKCj/xcXF//j4+P8dHR3/2dnZ/9bW1v8hISH/39/f/5OTk/9ZWVn/AAAA/1JS
+        Uv/Ly8v/zc3N/93d3f/q6ur/+fn5///////t7e3/Hx8f/9fX1//z8/P/IyMj/66urv8ZGRn/AAAA/wIC
+        Av8AAAD/AAAA/wAAAP8AAAD/AwMD/wAAAP90dHT/3Nzc/xsbG//y8vL//////1NTU/9jY2P/8PDw/7e3
+        t/8SEhL/DQ0N/4SEhP95eXn/aGho/1xcXP80NDT/o6Oj/4GBgf9CQkL////////////Ozs7/Dg4O/9LS
+        0v//////Tk5O/wAAAP/Nzc3///////z8/P/9/f3//////9zc3P8JCQn/ubm5///////8/Pz//////4CA
+        gP8NDQ3/4+Pj/8/Pz/+FhYX/4uLi///////8/Pz//////9zc3P8SEhL/ZmZm///////9/f3///////z8
+        /P//////eHh4/wAAAP96enr/4eHh//T09P/u7u7/0dHR/3Jycv8AAAD/ZWVl///////9/f3/////////
+        /////////Pz8///////Gxsb/RERE/xMTE/8ZGRn/Hx8f/x4eHv9ERET/v7+////////8/Pz/////////
+        ///////////////////8/Pz////////////z8/P/09PT/9bW1v/19fX////////////8/Pz//v7+////
+        ////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
