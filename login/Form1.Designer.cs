@@ -118,6 +118,7 @@
             button3.TabIndex = 8;
             button3.Text = "registrase";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 

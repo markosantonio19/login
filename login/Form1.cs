@@ -21,5 +21,11 @@ namespace login
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 prueba = new Form2(); 
+            prueba.ShowDialog();
+        }
     }
 }
