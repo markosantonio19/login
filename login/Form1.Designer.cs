@@ -34,6 +34,8 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label2 = new Label();
+            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -84,11 +86,33 @@
             label2.TabIndex = 4;
             label2.Text = "password";
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(195, 285);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 33);
+            button1.TabIndex = 6;
+            button1.Text = "login";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.Location = new Point(320, 285);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 33);
+            button2.TabIndex = 7;
+            button2.Text = "back";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(482, 450);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(label2);
             Controls.Add(textBox1);
@@ -109,5 +133,7 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label2;
+        private Button button1;
+        private Button button2;
     }
 }
